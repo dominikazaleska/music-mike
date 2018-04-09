@@ -23,7 +23,7 @@ Actions on Google and Dialogflow DJ - Music Mike let's you listen the music righ
 
 10. Deploy the fulfillment webhook provided in the functions folder using Google Cloud Functions for Firebase by running
 ```firebase deploy --only functions``` 
-11. Copy the Function URL (conversationComponent): https://us-central1-YOUR_PROJECT.cloudfunctions.net/conversationComponent
+11. Copy the Function URL (conversationComponent): https://us-central1-cards-3da0b.cloudfunctions.net/conversationComponent
 
 12. In Dialogflow console select Fulfillment from the left navigation menu. Enable Webhook, set the value of URL to the Function URL from the previous step, then click Save.
 
