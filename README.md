@@ -2,7 +2,8 @@
 Actions on Google and Dialogflow DJ - Music Mike let's you listen the music right from Google Assistant.
 
 # Setup
-Use the Actions on Google Console to add a new project with a name of your choosing.
+1. Create project on [Actions on Google Console] (https://console.actions.google.com/) 
+
 Under Build a custom app, click BUILD in the Dialogflow box and then click Create Actions on Dialogflow.
 Click Save to save the project.
 Click on the gear icon to see the project settings.
