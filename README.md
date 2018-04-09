@@ -2,13 +2,24 @@
 Actions on Google and Dialogflow DJ - Music Mike let's you listen the music right from Google Assistant.
 
 # Setup
-1. Create project on [Actions on Google Console](https://console.actions.google.com/) 
 
-Under Build a custom app, click BUILD in the Dialogflow box and then click Create Actions on Dialogflow.
-Click Save to save the project.
-Click on the gear icon to see the project settings.
-Select Export and Import.
-Select Restore from zip. Follow the directions to restore from the music-mike.zip file in this repo.
+1. Create project on [Actions on Google Console](https://console.actions.google.com/).
+
+2. Choose the Dialogflow option.
+
+3. Click on the gear icon -> Select Export and Import -> Restore from .zip.
+
+4. Restore from the music-mike.zip file in this repo.
+
+5. Clone the repo to your computer.
+
+6. Get into the folder.
+
+7. Install dependencies in functions folder - ```npm install```
+
+8. Create a Firebase project in the Firebase Console.
+
+9. Init project
 Deploy the fulfillment webhook provided in the functions folder using Google Cloud Functions for Firebase:
 Create a Firebase project in the Firebase Console if you don't have one already.
 Follow the instructions to set up and initialize Firebase SDK for Cloud Functions. Make sure to reply "N" when asked to overwrite existing files by the Firebase CLI. 1.Run firebase deploy --only functions and take note of the endpoint where the fulfillment webhook has been published. It should look like Function URL (conversationComponent): https://us-central1-YOUR_PROJECT.cloudfunctions.net/conversationComponent
